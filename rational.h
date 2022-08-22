@@ -84,6 +84,7 @@ class rational{
 		}
 		else in.putback(ch);
 	}
+    return in;
 }
 
 friend ostream & operator<<(ostream & out, const rational & value){
